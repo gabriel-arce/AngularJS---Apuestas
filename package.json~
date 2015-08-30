@@ -9,12 +9,13 @@
     "angular-bootstrap": "^0.12.2",
     "angular-ui-bootstrap": "^0.13.3",
     "bootstrap": "^3.3.5",
-    "jquey":"^2.1.4"
+    "http-server": "^0.8.0"
   },
-  
-  "devDependencies":"",
 
   "scripts": {
+    "prestart": "npm install",
+    "postinstall": "",
+    "start": "http-server -p 8000 -c-1 -o ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
