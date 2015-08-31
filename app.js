@@ -8,7 +8,7 @@ apuestasApp.controller('apuestasCtrl', function() {
 	this.verCalendario = function($event){
 		$event.preventDefault();
 		$event.stopPropagation();
-		self.calendarioAbierto() = true;
+		self.calendarioAbierto = true;
 	};
 
 	this.apostar = function(apuestasForm) {
